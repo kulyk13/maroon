@@ -13,7 +13,7 @@
     <header class="header">
         <nav class="header-nav">
             <a href="index.html" class="logo">
-                <img src="img/logo.svg" alt="Maroon" width="131" height="21">
+                <img src="img/logo.svg" class="logo" alt="Maroon" width="131" height="21">
             </a>
             <ul class="menu header__menu">
                 <li class="menu__item header__menu-item">
@@ -46,7 +46,7 @@
                 <a href="#" class="btn hero__offer-btn">Подробнее</a>
             </div>
             <article class="hero__card">
-                <img src="img/face_care_img.webp" alt="Уход для лица" width="330" height="422">
+                <img src="img/face_care_img.webp" class="hero__card-img" alt="Уход для лица" width="330" height="422">
                 <a href="#" class="hero__card-link">
                     Уход для лица
                     <svg width="27" height="14" viewbox="0 0 27 14">
@@ -55,7 +55,7 @@
                 </a>
             </article>
             <article class="hero__card">
-                <img src="img/body_care_img.webp" alt="Уход для тела" width="330" height="422">
+                <img src="img/body_care_img.webp" class="hero__card-img" alt="Уход для тела" width="330" height="422">
                 <a href="#" class="hero__card-link">
                     Уход для тела
                     <svg width="27" height="14" viewbox="0 0 27 14">
@@ -63,6 +63,74 @@
                     </svg>
                 </a>
             </article>
+        </section>
+
+        <section class="bestsellers">
+            <div class="offer bestsellers__offer">
+                <h2 class="offer__title">Бестселлеры</h2>
+                <p class="offer__text bestsellers__offer-text">Легендарные продукты,
+                    завоевавшие любовь наших клиентов</p>
+                <a href="#" class="btn offer__btn bestsellers__offer-btn">Смотреть все</a>
+            </div>
+            <div class="swiper products">
+                <div class="swiper-wrapper products-wrap">
+                    <div class="swiper-slide products__slide">
+                        <img src="img/high.webp" alt="крем для лица" class="products__slide-img" width="230"
+                            height="312">
+                        <div class="products__slide-text">
+                            <h3 class="product__slide-title">High</h3>
+                            <p class="product__slide-subtitle">крем для лица</p>
+                            <a href="#" class="product__slide-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide products__slide">
+                        <img src="img/rest.webp" alt="минеральная пудра" class="products__slide-img" width="230"
+                            height="312">
+                        <div class="products__slide-text">
+                            <h3 class="product__slide-title">Rest</h3>
+                            <p class="product__slide-subtitle">минеральная пудра</p>
+                            <a href="#" class="product__slide-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide products__slide">
+                        <img src="img/rose.webp" alt="крем для лица" class="products__slide-img" width="230"
+                            height="312">
+                        <div class="products__slide-text">
+                            <h3 class="product__slide-title">Rose</h3>
+                            <p class="product__slide-subtitle">крем для лица</p>
+                            <a href="#" class="product__slide-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide products__slide">
+                        <img src="img/milk.webp" alt="масло для тела" class="products__slide-img" width="230"
+                            height="312">
+                        <div class="products__slide-text">
+                            <h3 class="product__slide-title">Milk</h3>
+                            <p class="product__slide-subtitle">масло для тела</p>
+                            <a href="#" class="product__slide-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide products__slide">
+                        <img src="img/rest.webp" alt="минеральная пудра" class="products__slide-img" width="230"
+                            height="312">
+                        <div class="products__slide-text">
+                            <h3 class="product__slide-title">Rest</h3>
+                            <p class="product__slide-subtitle">минеральная пудра</p>
+                            <a href="#" class="product__slide-btn">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" name="swiper-button" class="swiper-button-prev">
+                    <svg width="27" height="14" viewbox="0 0 27 14">
+                        <path d="M0 7H26M26 7L19.697 1M26 7L19.697 13" stroke="#122947" />
+                    </svg>
+                </button>
+                <button type="button" name="swiper-button" class="swiper-button-next">
+                    <svg width="27" height="14" viewbox="0 0 27 14">
+                        <path d="M0 7H26M26 7L19.697 1M26 7L19.697 13" stroke="#122947" />
+                    </svg>
+                </button>
+            </div>
         </section>
     </main>
 
