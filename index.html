@@ -11,7 +11,7 @@
 <body>
 
     <header class="header">
-        <nav class="header-nav">
+        <nav class="header-nav container">
             <a href="index.html" class="logo">
                 <img src="img/logo.svg" class="logo__img" alt="Maroon" width="131" height="21">
             </a>
@@ -39,110 +39,121 @@
 
     <main class="main">
         <section class="hero">
-            <div class="offer hero__offer">
-                <h1 class="hero__offer-title">Натуральная косметика
-                    для бережного ухода за кожей</h1>
-                <p class="hero__offer-text">Maroon</p>
-                <a href="#" class="btn hero__offer-btn">Подробнее</a>
+            <div class="hero__wrap continer">
+                <div class="offer hero__offer">
+                    <h1 class="hero__offer-title">Натуральная косметика
+                        для бережного ухода за кожей</h1>
+                    <p class="hero__offer-text">Maroon</p>
+                    <a href="#" class="btn hero__offer-btn">Подробнее</a>
+                </div>
+                <article class="hero__card">
+                    <h2 class="visually-hidden">Уход для лица</h2>
+                    <img src="img/face_care_img.webp" class="hero__card-img" alt="Уход для лица" width="330"
+                        height="422">
+                    <a href="#" class="hero__card-link">
+                        Уход для лица
+                        <svg width="27" height="14" viewbox="0 0 27 14">
+                            <path d="M0 7H26M26 7L19.697 1M26 7L19.697 13" stroke="#122947" />
+                        </svg>
+                    </a>
+                </article>
+                <article class="hero__card">
+                    <h2 class="visually-hidden">Уход для тела</h2>
+                    <img src="img/body_care_img.webp" class="hero__card-img" alt="Уход для тела" width="330"
+                        height="422">
+                    <a href="#" class="hero__card-link">
+                        Уход для тела
+                        <svg width="27" height="14" viewbox="0 0 27 14">
+                            <path d="M0 7H26M26 7L19.697 1M26 7L19.697 13" stroke="#122947" />
+                        </svg>
+                    </a>
+                </article>
             </div>
-            <article class="hero__card">
-                <img src="img/face_care_img.webp" class="hero__card-img" alt="Уход для лица" width="330" height="422">
-                <a href="#" class="hero__card-link">
-                    Уход для лица
-                    <svg width="27" height="14" viewbox="0 0 27 14">
-                        <path d="M0 7H26M26 7L19.697 1M26 7L19.697 13" stroke="#122947" />
-                    </svg>
-                </a>
-            </article>
-            <article class="hero__card">
-                <img src="img/body_care_img.webp" class="hero__card-img" alt="Уход для тела" width="330" height="422">
-                <a href="#" class="hero__card-link">
-                    Уход для тела
-                    <svg width="27" height="14" viewbox="0 0 27 14">
-                        <path d="M0 7H26M26 7L19.697 1M26 7L19.697 13" stroke="#122947" />
-                    </svg>
-                </a>
-            </article>
         </section>
 
         <section class="bestsellers">
-            <div class="offer bestsellers__offer">
-                <h2 class="offer__title bestsellers__offer-title">Бестселлеры</h2>
-                <p class="offer__text bestsellers__offer-text">Легендарные продукты,
-                    завоевавшие любовь наших клиентов</p>
-                <a href="#" class="btn offer__btn bestsellers__offer-btn">Смотреть все</a>
-            </div>
-            <div class="swiper bestsellers-slider">
-                <div class="swiper-wrapper bestsellers-slider__wrap">
-                    <div class="swiper-slide bestsellers-slider__slide">
-                        <img src="img/high.webp" alt="крем для лица" class="bestsellers-slider__slide-img" width="230"
-                            height="312">
-                        <div class="bestsellers-slider__slide-text">
-                            <h3 class="bestsellers-slider__slide-title">High</h3>
-                            <p class="bestsellers-slider__slide-subtitle">крем для лица</p>
-                            <a href="#" class="bestsellers-slider__slide-btn">Подробнее</a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide bestsellers-slider__slide">
-                        <img src="img/rest.webp" alt="минеральная пудра" class="bestsellers-slider__slide-img"
-                            width="230" height="312">
-                        <div class="bestsellers-slider__slide-text">
-                            <h3 class="bestsellers-slider__slide-title">Rest</h3>
-                            <p class="bestsellers-slider__slide-subtitle">минеральная пудра</p>
-                            <a href="#" class="bestsellers-slider__slide-btn">Подробнее</a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide bestsellers-slider__slide">
-                        <img src="img/rose.webp" alt="крем для лица" class="bestsellers-slider__slide-img" width="230"
-                            height="312">
-                        <div class="bestsellers-slider__slide-text">
-                            <h3 class="bestsellers-slider__slide-title">Rose</h3>
-                            <p class="bestsellers-slider__slide-subtitle">крем для лица</p>
-                            <a href="#" class="bestsellers-slider__slide-btn">Подробнее</a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide bestsellers-slider__slide">
-                        <img src="img/milk.webp" alt="масло для тела" class="bestsellers-slider__slide-img" width="230"
-                            height="312">
-                        <div class="bestsellers-slider__slide-text">
-                            <h3 class="bestsellers-slider__slide-title">Milk</h3>
-                            <p class="bestsellers-slider__slide-subtitle">масло для тела</p>
-                            <a href="#" class="bestsellers-slider__slide-btn">Подробнее</a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide bestsellers-slider__slide">
-                        <img src="img/rest.webp" alt="минеральная пудра" class="bestsellers-slider__slide-img"
-                            width="230" height="312">
-                        <div class="bestsellers-slider__slide-text">
-                            <h3 class="bestsellers-slider__slide-title">Rest</h3>
-                            <p class="bestsellers-slider__slide-subtitle">минеральная пудра</p>
-                            <a href="#" class="bestsellers-slider__slide-btn">Подробнее</a>
-                        </div>
-                    </div>
+            <div class="bestsellers__wrap container">
+                <div class="offer bestsellers__offer">
+                    <h2 class="offer__title bestsellers__offer-title">Бестселлеры</h2>
+                    <p class="offer__text bestsellers__offer-text">Легендарные продукты,
+                        завоевавшие любовь наших клиентов</p>
+                    <a href="#" class="btn offer__btn bestsellers__offer-btn">Смотреть все</a>
                 </div>
-                <button type="button" name="swiper-button" class="swiper-button-prev bestsellers-slider__btn-prev">
-                    <svg width="27" height="14" viewbox="0 0 27 14">
-                        <path d="M0 7H26M26 7L19.697 1M26 7L19.697 13" stroke="#122947" />
-                    </svg>
-                </button>
-                <button type="button" name="swiper-button" class="swiper-button-next bestsellers-slider__btn-next">
-                    <svg width="27" height="14" viewbox="0 0 27 14">
-                        <path d="M0 7H26M26 7L19.697 1M26 7L19.697 13" stroke="#122947" />
-                    </svg>
-                </button>
+                <div class="swiper bestsellers-slider">
+                    <div class="swiper-wrapper bestsellers-slider__wrap">
+                        <div class="swiper-slide bestsellers-slider__slide">
+                            <img src="img/high.webp" alt="крем для лица" class="bestsellers-slider__slide-img"
+                                width="230" height="312">
+                            <div class="bestsellers-slider__slide-text">
+                                <h3 class="bestsellers-slider__slide-title">High</h3>
+                                <p class="bestsellers-slider__slide-subtitle">крем для лица</p>
+                                <a href="#" class="bestsellers-slider__slide-btn">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide bestsellers-slider__slide">
+                            <img src="img/rest.webp" alt="минеральная пудра" class="bestsellers-slider__slide-img"
+                                width="230" height="312">
+                            <div class="bestsellers-slider__slide-text">
+                                <h3 class="bestsellers-slider__slide-title">Rest</h3>
+                                <p class="bestsellers-slider__slide-subtitle">минеральная пудра</p>
+                                <a href="#" class="bestsellers-slider__slide-btn">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide bestsellers-slider__slide">
+                            <img src="img/rose.webp" alt="крем для лица" class="bestsellers-slider__slide-img"
+                                width="230" height="312">
+                            <div class="bestsellers-slider__slide-text">
+                                <h3 class="bestsellers-slider__slide-title">Rose</h3>
+                                <p class="bestsellers-slider__slide-subtitle">крем для лица</p>
+                                <a href="#" class="bestsellers-slider__slide-btn">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide bestsellers-slider__slide">
+                            <img src="img/milk.webp" alt="масло для тела" class="bestsellers-slider__slide-img"
+                                width="230" height="312">
+                            <div class="bestsellers-slider__slide-text">
+                                <h3 class="bestsellers-slider__slide-title">Milk</h3>
+                                <p class="bestsellers-slider__slide-subtitle">масло для тела</p>
+                                <a href="#" class="bestsellers-slider__slide-btn">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide bestsellers-slider__slide">
+                            <img src="img/rest.webp" alt="минеральная пудра" class="bestsellers-slider__slide-img"
+                                width="230" height="312">
+                            <div class="bestsellers-slider__slide-text">
+                                <h3 class="bestsellers-slider__slide-title">Rest</h3>
+                                <p class="bestsellers-slider__slide-subtitle">минеральная пудра</p>
+                                <a href="#" class="bestsellers-slider__slide-btn">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" name="swiper-button" class="swiper-button-prev bestsellers-slider__btn-prev">
+                        <svg width="27" height="14" viewbox="0 0 27 14">
+                            <path d="M0 7H26M26 7L19.697 1M26 7L19.697 13" stroke="#122947" />
+                        </svg>
+                    </button>
+                    <button type="button" name="swiper-button" class="swiper-button-next bestsellers-slider__btn-next">
+                        <svg width="27" height="14" viewbox="0 0 27 14">
+                            <path d="M0 7H26M26 7L19.697 1M26 7L19.697 13" stroke="#122947" />
+                        </svg>
+                    </button>
+                </div>
             </div>
         </section>
 
         <section class="banner">
-            <div class="offer banner__offer">
-                <h2 class="offer__title banner__offer-title">Встречайте весну вместе с нами</h2>
-                <p class="offer__text banner__offer-text">Попробуйте новую коллекцию ухаживающих средств для лица с
-                    SPF защитой</p>
-                <a href="#" class="btn offer__btn banner__offer-btn">Подробнее</a>
+            <div class="container">
+                <div class="offer banner__offer">
+                    <h2 class="offer__title banner__offer-title">Встречайте весну вместе с нами</h2>
+                    <p class="offer__text banner__offer-text">Попробуйте новую коллекцию ухаживающих средств для лица с
+                        SPF защитой</p>
+                    <a href="#" class="btn offer__btn banner__offer-btn">Подробнее</a>
+                </div>
             </div>
         </section>
 
-        <section class="product-section">
+        <section class="product-section container">
+            <h2 class="visually-hidden">Продукт</h2>
             <article class="product">
                 <div class="offer product__offer">
                     <h2 class="offer__title product__offer-title">Индивидуальный уход</h2>
@@ -157,15 +168,18 @@
         </section>
 
         <section class="our-story">
-            <blockquote class="our-story__quote">
-                <p class="our-story__quote-text">“Мы стремимся сделать уход за кожей доступным
-                    и приятным ритуалом для всех, кто хочет заботиться о себе и своем теле” </p>
-            </blockquote>
-            <a href="#" class="btn our-story__btn">Наша история</a>
+            <div class="container">
+                <h2 class="visually-hidden">Наша история</h2>
+                <blockquote class="our-story__quote">
+                    <p class="our-story__quote-text">“Мы стремимся сделать уход за кожей доступным
+                        и приятным ритуалом для всех, кто хочет заботиться о себе и своем теле” </p>
+                </blockquote>
+                <a href="#" class="btn our-story__btn">Наша история</a>
+            </div>
         </section>
 
         <section class="subscribe">
-            <div class="subscribe__wrap">
+            <div class="subscribe__wrap container">
                 <ul class="subscribe__collage">
                     <li class="subscribe__collage-item">
                         <img src="img/collage-pic1.webp" alt="" class="subscribe__collage-img" width="233" height="233"
@@ -202,9 +216,9 @@
             </div>
         </section>
 
-        <section class="contacts">
+        <section class="contacts container">
+            <h2 class="contacts__title">Контакты</h2>
             <address class="contacts__info">
-                <h2 class="contacts__title">Контакты</h2>
                 <dl class="contacts__list">
                     <div class="contacts__list-item">
                         <dt class="contacts__list-value">Адрес</dt>
@@ -254,54 +268,55 @@
                 </a>
             </address>
         </section>
-
-        <footer class="footer">
-            <nav class="footer__nav">
-                <a href="#" class="logo">
-                    <img src="img/logo.svg" alt="Maroon" class="logo__img" width="131" height="21" loading="lazy">
-                </a>
-                <ul class="menu footer__menu">
-                    <li class="menu__item footer__menu-item">
-                        <a href="#" class="menu__link footer__menu-link">Каталог</a>
-                    </li>
-                    <li class="menu__item footer__menu-item">
-                        <a href="#" class="menu__link footer__menu-link">О нас</a>
-                    </li>
-                    <li class="menu__item footer__menu-item">
-                        <a href="#" class="menu__link footer__menu-link">Магазины</a>
-                    </li>
-                    <li class="menu__item footer__menu-item">
-                        <a href="#" class="menu__link footer__menu-link">Контакты</a>
-                    </li>
-                </ul>
-                <ul class="socials footer__socials">
-                    <li class="socials__item footer__socials-item">
-                        <a href="https://facebook.com/" rel="nofollow noreferrer noopener"
-                            class="socials__link footer__socials-link" target="_blank" title="Facebook">
-                            <i class="icon-fb">Facebook</i>
-                        </a>
-                    </li>
-                    <li class="socials__item footer__socials-item">
-                        <a href="https://instagram.com/" rel="nofollow noreferrer noopener"
-                            class="socials__link footer__socials-link" target="_blank" title="Instagram">
-                            <i class="icon-instagram">Instagram</i>
-                        </a>
-                    </li>
-                    <li class="socials__item footer__socials-item">
-                        <a href="https://twitter.com/" rel="nofollow noreferrer noopener"
-                            class="socials__link footer__socials-link" target="_blank" title="Twitter">
-                            <i class="icon-fb">Twitter</i>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <section class="footer__info">
-                <p class="copyright">Maroon <i class="icon-copyright">C</i> <span id="copyrightYear">2020</span> Все
-                    права защищены</p>
-                <a href="#" class="policy">Политика конфиденциальности</a>
-            </section>
-        </footer>
     </main>
+
+    <footer class="footer">
+        <nav class="footer__nav container">
+            <a href="#" class="logo">
+                <img src="img/logo.svg" alt="Maroon" class="logo__img" width="131" height="21" loading="lazy">
+            </a>
+            <ul class="menu footer__menu">
+                <li class="menu__item footer__menu-item">
+                    <a href="#" class="menu__link footer__menu-link">Каталог</a>
+                </li>
+                <li class="menu__item footer__menu-item">
+                    <a href="#" class="menu__link footer__menu-link">О нас</a>
+                </li>
+                <li class="menu__item footer__menu-item">
+                    <a href="#" class="menu__link footer__menu-link">Магазины</a>
+                </li>
+                <li class="menu__item footer__menu-item">
+                    <a href="#" class="menu__link footer__menu-link">Контакты</a>
+                </li>
+            </ul>
+            <ul class="socials footer__socials">
+                <li class="socials__item footer__socials-item">
+                    <a href="https://facebook.com/" rel="nofollow noreferrer noopener"
+                        class="socials__link footer__socials-link" target="_blank" title="Facebook">
+                        <i class="icon-fb">Facebook</i>
+                    </a>
+                </li>
+                <li class="socials__item footer__socials-item">
+                    <a href="https://instagram.com/" rel="nofollow noreferrer noopener"
+                        class="socials__link footer__socials-link" target="_blank" title="Instagram">
+                        <i class="icon-instagram">Instagram</i>
+                    </a>
+                </li>
+                <li class="socials__item footer__socials-item">
+                    <a href="https://twitter.com/" rel="nofollow noreferrer noopener"
+                        class="socials__link footer__socials-link" target="_blank" title="Twitter">
+                        <i class="icon-fb">Twitter</i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="footer__info container">
+            <p class="copyright">Maroon <i class="icon-copyright">C</i> <span id="copyrightYear">2020</span> Все
+                права защищены</p>
+            <a href="#" class="policy">Политика конфиденциальности</a>
+        </div>
+    </footer>
 
 </body>
 
