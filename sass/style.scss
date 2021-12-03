@@ -1,3 +1,23 @@
 @import "fonts.scss";
 @import "reset.scss";
 @import "common.scss";
+//VARIABLES
+$tr_time: 0.3s;
+
+/* ----- HEADER START ----- */
+.header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: transparent;
+  &__menu {
+    margin-left: auto;
+    column-gap: 15px;
+  }
+}
+.account-nav {
+  display: flex;
+  column-gap: 10px;
+  margin-left: 50px;
+  margin-right: -10px;
+}
+/* ----- HEADER END ----- */

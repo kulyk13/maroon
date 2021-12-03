@@ -1,3 +1,5 @@
+//VARIABLES
+$tr_time: 0.3s;
 /* COMMON STYLES START */
 *,
 ::before,
@@ -45,7 +47,10 @@ body {
 a {
   color: #122947;
   padding: 10px;
-  transition: 0.3s;
+  transition: $tr_time;
+  &:hover {
+    color: #cf9510;
+  }
 }
 .visually-hidden {
   position: absolute;
@@ -59,6 +64,20 @@ a {
   width: 100%;
   margin: 0 auto;
 }
+.nav {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-left: -10px;
+}
+.menu {
+  display: flex;
+}
+.socials {
+  display: flex;
+}
+
 [class^="icon-"],
 [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */

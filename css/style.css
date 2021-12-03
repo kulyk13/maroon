@@ -221,6 +221,9 @@ a {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
+a:hover {
+  color: #cf9510;
+}
 
 .visually-hidden {
   position: absolute;
@@ -234,6 +237,31 @@ a {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  margin-left: -10px;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 [class^=icon-],
@@ -280,3 +308,28 @@ a {
 }
 
 /* COMMON STYLES END */
+/* ----- HEADER START ----- */
+.header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: transparent;
+}
+.header__menu {
+  margin-left: auto;
+  -webkit-column-gap: 15px;
+     -moz-column-gap: 15px;
+          column-gap: 15px;
+}
+
+.account-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+  margin-left: 50px;
+  margin-right: -10px;
+}
+
+/* ----- HEADER END ----- */
