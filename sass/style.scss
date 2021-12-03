@@ -4,11 +4,26 @@
 //VARIABLES
 $tr_time: 0.3s;
 
+//TEMPLATES
+%column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+//MIXINS
+@mixin font($ff, $fw, $fz) {
+  font-family: $ff, sans-serif;
+  font-weight: $fw;
+  font-size: $fz;
+}
 /* ----- HEADER START ----- */
 .header {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: transparent;
+  position: relative;
+  z-index: 10;
   &__menu {
     margin-left: auto;
     column-gap: 15px;
@@ -19,5 +34,61 @@ $tr_time: 0.3s;
   column-gap: 10px;
   margin-left: 50px;
   margin-right: -10px;
+  font-size: 21px;
 }
 /* ----- HEADER END ----- */
+/* ----- HERO START ----- */
+.hero {
+  padding-bottom: 70px;
+  background-image: url(../img/hero-bg.webp);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  margin-top: -120px;
+  &__wrap {
+    display: flex;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 150px;
+  }
+  &__offer {
+    @extend %column-center;
+    padding: 60px 60px 0;
+    text-align: center;
+    &-title {
+      margin-bottom: 40px;
+    }
+    &-text {
+      @include font("Raleway", 500, 58px);
+      text-transform: uppercase;
+      line-height: 0.8;
+      order: -1;
+      margin-bottom: 30px;
+    }
+  }
+  &__card {
+    width: 330px;
+    &:nth-child(2) {
+      order: -1;
+    }
+    &-link {
+      @include font("Mplus1p", 500, 16px);
+      margin-left: -10px;
+      display: flex;
+      align-items: center;
+      margin-top: -5px;
+      &:hover {
+        .hero__card-arrow {
+          stroke: $brand_color;
+        }
+      }
+    }
+    &-arrow {
+      margin-left: auto;
+      stroke: $text_color;
+      margin-right: -10px;
+      transition: $tr_time;
+    }
+  }
+}
+/* ----- HERO END ----- */
