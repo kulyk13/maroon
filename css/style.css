@@ -247,9 +247,10 @@ a:hover {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .nav {
@@ -270,6 +271,9 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
   font-size: 16px;
+  -webkit-column-gap: 15px;
+     -moz-column-gap: 15px;
+          column-gap: 15px;
 }
 
 .btn {
@@ -360,9 +364,6 @@ a:hover {
 }
 .header__menu {
   margin-left: auto;
-  -webkit-column-gap: 15px;
-     -moz-column-gap: 15px;
-          column-gap: 15px;
 }
 
 .account-nav {
