@@ -162,3 +162,26 @@
   }
 }
 /* ----- BESTSELLERS END -----*/
+/* ----- BANNER StART -----*/
+.banner {
+  padding-top: 81px;
+  padding-bottom: 81px;
+  background-image: url(../img/can_&_flowers.webp);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: cover;
+  &__offer {
+    max-width: 285px;
+    margin-left: calc(50% + 115px);
+    &-title {
+      margin-bottom: 23px;
+    }
+    &-text {
+      margin-bottom: 33px;
+    }
+    &-btn {
+      padding: 10px 26px 13px;
+    }
+  }
+}
+/* ----- BANNER END -----*/
