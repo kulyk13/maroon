@@ -54,6 +54,9 @@ a {
     color: $brand_color;
   }
 }
+.wrapper {
+  overflow-x: hidden;
+}
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -76,6 +79,7 @@ a {
 }
 @import "menu.scss";
 @import "button.scss";
+@import "offer.scss";
 .socials {
   display: flex;
 }
