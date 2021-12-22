@@ -9,3 +9,6 @@ const bestSlider = new Swiper('.bestsellers-slider', {
         prevEl: '.swiper-button-prev',
       },
   });
+  
+  //Copyright year
+  copyrightYear.textContent = new Date().getFullYear();
