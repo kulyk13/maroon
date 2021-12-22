@@ -67,7 +67,8 @@
       display: flex;
       align-items: center;
       margin-top: -5px;
-      &:hover {
+      &:hover,
+      &:focus-within {
         .hero__card-arrow {
           stroke: $brand_color;
         }
@@ -129,7 +130,8 @@
       &-btn {
         border-bottom: 1px solid #000;
         padding: 0 0 3px 0;
-        &:hover {
+        &:hover,
+        &:focus-within {
           border-bottom: 1px solid $brand_color;
         }
       }
@@ -139,7 +141,8 @@
       height: initial;
       top: initial;
       bottom: 0;
-      &:hover {
+      &:hover,
+      &:focus-within {
         .bestsellers-slider__arrow {
           stroke: $brand_color;
         }
@@ -195,7 +198,7 @@
   &__offer {
     padding: 90px 223px 90px 100px;
     width: 670px;
-    background-color: $product_bg_color;
+    background-color: $bg_color2;
   }
   &__img {
     position: absolute;
@@ -229,7 +232,7 @@
   }
 }
 /* ----- OUR STORY END -----*/
-/* ----- SUBSCRIBE END -----*/
+/* ----- SUBSCRIBE START -----*/
 .subscribe {
   margin-bottom: 140px;
   &__wrap {
@@ -254,4 +257,47 @@
     }
   }
 }
-/* ----- SUBSCRIBE StART -----*/
+/* ----- SUBSCRIBE END -----*/
+/* ----- CONTACTS SECTION START -----*/
+.contacts-section {
+  margin-bottom: 140px;
+  position: relative;
+}
+.contacts {
+  max-width: 670px;
+  background-color: $bg_color2;
+  padding: 91px 314px 81px 100px;
+  line-height: 1;
+  &__title {
+    @include font("Raleway", 500, 32px);
+    margin-bottom: 30px;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-bottom: 20px;
+    &:first-child {
+      .contacts__list-value {
+        line-height: 1.44;
+      }
+    }
+    &-title {
+      font-weight: 500;
+      margin-bottom: 15px;
+    }
+    &-link {
+      padding: 0;
+    }
+  }
+  &__map {
+    position: absolute;
+    top: calc(50% - 211px);
+    right: 0;
+    z-index: 10;
+  }
+  &__map-link {
+    display: none;
+  }
+}
+/* ----- CONTACTS SECTION END -----*/
