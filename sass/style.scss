@@ -229,3 +229,29 @@
   }
 }
 /* ----- OUR STORY END -----*/
+/* ----- SUBSCRIBE END -----*/
+.subscribe {
+  margin-bottom: 140px;
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__collage {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    &-img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__offer {
+    max-width: 381px;
+    &-btn {
+      padding-left: 33px;
+      padding-right: 33px;
+    }
+  }
+}
+/* ----- SUBSCRIBE StART -----*/

@@ -632,3 +632,39 @@ a:hover {
 }
 
 /* ----- OUR STORY END -----*/
+/* ----- SUBSCRIBE END -----*/
+.subscribe {
+  margin-bottom: 140px;
+}
+.subscribe__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.subscribe__collage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 700px;
+}
+.subscribe__collage-img {
+  width: 100%;
+  height: 100%;
+}
+.subscribe__offer {
+  max-width: 381px;
+}
+.subscribe__offer-btn {
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+/* ----- SUBSCRIBE StART -----*/
