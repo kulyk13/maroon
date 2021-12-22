@@ -281,7 +281,7 @@ a:hover {
 }
 
 .btn {
-  padding: 13px 27px 16px;
+  padding: 11px 27px 12px;
   border: 1px solid #b3bac1;
   border-radius: 2px;
   font-family: "Mplus1p", sans-serif;
@@ -485,7 +485,8 @@ a:hover {
   margin-bottom: 30px;
 }
 .bestsellers__offer-btn {
-  padding: 11px 23px 12px;
+  padding-left: 23px;
+  padding-right: 23px;
 }
 .bestsellers-slider {
   margin-right: -140px;
@@ -577,9 +578,6 @@ a:hover {
 .banner__offer-text {
   margin-bottom: 33px;
 }
-.banner__offer-btn {
-  padding: 10px 26px 13px;
-}
 
 /* ----- BANNER END -----*/
 /* ----- PRODUCT SECTION StART -----*/
@@ -599,9 +597,6 @@ a:hover {
   width: 670px;
   background-color: #f3f0ec;
 }
-.product__offer-btn {
-  padding: 11px 27px 12px;
-}
 .product__img {
   position: absolute;
   top: calc(50% - 225px);
@@ -609,3 +604,31 @@ a:hover {
 }
 
 /* ----- PRODUCT SECTION END -----*/
+/* ----- OUR STORY StART -----*/
+.our-story {
+  padding-top: 111px;
+  padding-bottom: 111px;
+  margin-bottom: 140px;
+  background-image: url(../img/chamomiles.webp);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: cover;
+  text-align: center;
+}
+.our-story__quote {
+  padding-left: 205px;
+  padding-right: 205px;
+}
+.our-story__quote .our-story__quote-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 50px;
+  line-height: 1.25;
+}
+.our-story__btn {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/* ----- OUR STORY END -----*/

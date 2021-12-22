@@ -98,7 +98,8 @@
       margin-bottom: 30px;
     }
     &-btn {
-      padding: 11px 23px 12px;
+      padding-left: 23px;
+      padding-right: 23px;
     }
   }
   &-slider {
@@ -180,9 +181,6 @@
     &-text {
       margin-bottom: 33px;
     }
-    &-btn {
-      padding: 10px 26px 13px;
-    }
   }
 }
 /* ----- BANNER END -----*/
@@ -198,9 +196,6 @@
     padding: 90px 223px 90px 100px;
     width: 670px;
     background-color: $product_bg_color;
-    &-btn {
-      padding: 11px 27px 12px;
-    }
   }
   &__img {
     position: absolute;
@@ -209,3 +204,28 @@
   }
 }
 /* ----- PRODUCT SECTION END -----*/
+/* ----- OUR STORY StART -----*/
+.our-story {
+  padding-top: 111px;
+  padding-bottom: 111px;
+  margin-bottom: 140px;
+  background-image: url(../img/chamomiles.webp);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: cover;
+  text-align: center;
+  &__quote {
+    padding-left: 205px;
+    padding-right: 205px;
+    .our-story__quote-text {
+      @include font("Raleway", 500, 32px);
+      margin-bottom: 50px;
+      line-height: 1.25;
+    }
+  }
+  &__btn {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+/* ----- OUR STORY END -----*/
