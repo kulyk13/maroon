@@ -170,6 +170,7 @@
   background-repeat: no-repeat;
   background-position: 50% 100%;
   background-size: cover;
+  margin-bottom: 140px;
   &__offer {
     max-width: 285px;
     margin-left: calc(50% + 115px);
@@ -185,3 +186,26 @@
   }
 }
 /* ----- BANNER END -----*/
+/* ----- PRODUCT SECTION StART -----*/
+.product-section {
+  margin-bottom: 140px;
+  position: relative;
+}
+.product {
+  margin-right: auto;
+  display: flex;
+  &__offer {
+    padding: 90px 223px 90px 100px;
+    width: 670px;
+    background-color: $product_bg_color;
+    &-btn {
+      padding: 11px 27px 12px;
+    }
+  }
+  &__img {
+    position: absolute;
+    top: calc(50% - 225px);
+    right: 0;
+  }
+}
+/* ----- PRODUCT SECTION END -----*/

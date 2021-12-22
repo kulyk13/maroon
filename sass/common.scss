@@ -43,7 +43,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.45;
-  background-color: #e5e5e5;
+  background-color: $bg_color;
   color: $text_color;
 }
 a {
@@ -54,7 +54,7 @@ a {
     color: $brand_color;
   }
 }
-.wrapper {
+.main {
   overflow-x: hidden;
 }
 .visually-hidden {

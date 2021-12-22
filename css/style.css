@@ -224,7 +224,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.45;
-  background-color: #e5e5e5;
+  background-color: #e6e6e6;
   color: #112845;
 }
 
@@ -238,7 +238,7 @@ a:hover {
   color: #d19710;
 }
 
-.wrapper {
+.main {
   overflow-x: hidden;
 }
 
@@ -565,6 +565,7 @@ a:hover {
   background-repeat: no-repeat;
   background-position: 50% 100%;
   background-size: cover;
+  margin-bottom: 140px;
 }
 .banner__offer {
   max-width: 285px;
@@ -581,3 +582,30 @@ a:hover {
 }
 
 /* ----- BANNER END -----*/
+/* ----- PRODUCT SECTION StART -----*/
+.product-section {
+  margin-bottom: 140px;
+  position: relative;
+}
+
+.product {
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.product__offer {
+  padding: 90px 223px 90px 100px;
+  width: 670px;
+  background-color: #f3f0ec;
+}
+.product__offer-btn {
+  padding: 11px 27px 12px;
+}
+.product__img {
+  position: absolute;
+  top: calc(50% - 225px);
+  right: 0;
+}
+
+/* ----- PRODUCT SECTION END -----*/
